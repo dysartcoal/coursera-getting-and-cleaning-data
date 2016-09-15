@@ -115,7 +115,7 @@ For each record the following is provided:
 - subject_id: Identifies the subject who performed the activity for each window sample. It ranges is from 1 to 30.
 - activity_label: The name of the activity.  It is one of: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, 
 LAYING
-- tBodyAcc_mean_X: The mean by subject and activity of tBodyAcc-mean()-X
+- tBodyAcc_mean_X: The mean by subject and activity of tBodyAcc-mean()-X. For this and all subsequent variables the units used are the same as the units for the original data.
 - tBodyAcc_mean_Y: The mean by subject and activity of tBodyAcc-mean()-Y
 - tBodyAcc_mean_Z: The mean by subject and activity of tBodyAcc-mean()-Z
 - tBodyAcc_std_X: The mean by subject and activity of tBodyAcc-std()-X
