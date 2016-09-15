@@ -107,7 +107,7 @@ data_labelled <- merge(activity_labels, data_mean_std, by = "activity_id") %>%
 by_subject_activity <- group_by(data_labelled, subject_id, activity_label)
 data_summary <- summarise_each(by_subject_activity, funs(mean), -c(obs_id, activity_id))
 
-write.csv(data_summary, file="../tidy_data.csv", row.names=FALSE)
+write.table(data_summary, file="../tidy_data.txt", row.names=FALSE)
 
 
 # Return to starting directory
