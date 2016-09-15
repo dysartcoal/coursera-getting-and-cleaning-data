@@ -5,7 +5,7 @@
 
 The raw data for this project was taken from the Human Activity Recognition Using Smartphones Dataset 
 created by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto of Smartlab.  The outcome was to produce 
-a tidy data set (tidy_data.csv) which contained the averages (mean) for a subset of the measurements grouped by subject and activity.  
+a tidy data set (tidy_data.txt) which contained the averages (mean) for a subset of the measurements grouped by subject and activity.  
 The background to the original project and datasets 
 can be found at:
 
@@ -105,7 +105,7 @@ obs_id and the activity_id were explicitly excluded from the resulting data set.
 the subject_id, 
 activity_label and the mean for the measurements containing [Mm]ean or [Ss]td in the feature name.
 
-This tidy data set was written in csv format to a file called "tidy_data.csv" in the starting folder for the run_analysis.R 
+This tidy data set was written in text format to a file called "tidy_data.txt" in the starting folder for the run_analysis.R 
 script.
 
 ## CODEBOOK
